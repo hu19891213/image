@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T08:59:58.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="vnpE7WV6jDfrOVn59Sji" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-09T12:38:37.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="vjdCXL-HDWd3bEvPHNBZ" version="14.6.6" type="github" pages="3">
   <diagram name="7.6.1 管理课程系统顺序图" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1037" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -250,7 +250,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="7.6.2 管理课程顺序图" id="kCvQ_wFIUKlSFZwNopuG">
-    <mxGraphModel dx="1037" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="sRWV8qHLNpoPb0e1CxfN-0" />
         <mxCell id="sRWV8qHLNpoPb0e1CxfN-1" parent="sRWV8qHLNpoPb0e1CxfN-0" />
@@ -480,7 +480,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AeTaEVn8hLgq93oTbUsJ" name="7.5.2 创建课程顺序图">
-    <mxGraphModel dx="1037" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="EA0ftvZLlFb6rYDX7UKK-0" />
         <mxCell id="EA0ftvZLlFb6rYDX7UKK-1" parent="EA0ftvZLlFb6rYDX7UKK-0" />
