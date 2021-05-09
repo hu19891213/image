@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T11:50:24.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="GOuPhQKQ7XIr1whoKceI" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-09T11:50:42.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="VTljjVE5qwHcY1Tqvpen" version="14.6.6" type="github" pages="3">
   <diagram id="R78xaqouT0fXK327TKrT" name="7.4.4 查看用户信息状态图">
     <mxGraphModel dx="1037" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JF_MuRx8x4yZo3toYtdr-5" value="stm 查看用户信息状态图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=40;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="800" height="480" as="geometry" />
+          <mxGeometry x="40" y="120" width="790" height="320" as="geometry" />
         </mxCell>
         <mxCell id="JF_MuRx8x4yZo3toYtdr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#FF0000;" edge="1" parent="1" source="JF_MuRx8x4yZo3toYtdr-6">
           <mxGeometry relative="1" as="geometry">
