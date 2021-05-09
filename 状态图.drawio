@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T12:11:59.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="0HiJ2Yq2sPBUWj9JJlL4" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-09T12:31:41.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="b4ODtP680BYv5F5gZ1uI" version="14.6.6" type="github" pages="3">
   <diagram id="R78xaqouT0fXK327TKrT" name="7.4.4 查看用户信息状态图">
-    <mxGraphModel dx="1037" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,7 +96,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cQp6Rxe3EmaTujAg6KYK" name="7.5.4 创建课程状态图">
-    <mxGraphModel dx="1037" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PjIbphXWAcYPcqoNooAm-0" />
         <mxCell id="PjIbphXWAcYPcqoNooAm-1" parent="PjIbphXWAcYPcqoNooAm-0" />
@@ -208,10 +208,110 @@
     </mxGraphModel>
   </diagram>
   <diagram id="32CVirhiUENbnsEZaFPC" name="7.6.4 管理课程状态图">
-    <mxGraphModel dx="1037" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="AyHcBvlUNfm0NTus6usM-0" />
         <mxCell id="AyHcBvlUNfm0NTus6usM-1" parent="AyHcBvlUNfm0NTus6usM-0" />
+        <mxCell id="kMOTwyi9IoY8gT6K43Le-0" value="stm 管理课程状态图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=40;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="40" y="40" width="760" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="kMOTwyi9IoY8gT6K43Le-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="90" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMOTwyi9IoY8gT6K43Le-3" value="" style="html=1;verticalAlign=bottom;endArrow=open;strokeColor=#FF0000;endFill=0;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="184.5" as="sourcePoint" />
+            <mxPoint x="160" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yydpaexBZVuIiemLbXzi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="yydpaexBZVuIiemLbXzi-0" target="yydpaexBZVuIiemLbXzi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yydpaexBZVuIiemLbXzi-0" value="空闲" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="160" y="165" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zap3hRZqwVx_drHE-D0I-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="yydpaexBZVuIiemLbXzi-1" target="Zap3hRZqwVx_drHE-D0I-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="yydpaexBZVuIiemLbXzi-1" target="qeD-OVsuJ3vu34kXjEEA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yydpaexBZVuIiemLbXzi-1" value="管理课程开始" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="360" y="165" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5HkVkjSTusc-d0NUn5dh-0" value="选择管理课程" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="260" y="165" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="Zap3hRZqwVx_drHE-D0I-0" target="qeD-OVsuJ3vu34kXjEEA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zap3hRZqwVx_drHE-D0I-0" value="显示课程信息表单" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="570" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ymrt666SQ9ugHDW21iJ-1" value="选择修改课程信息" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="460" y="165" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="230" y="445" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#FF0000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="qeD-OVsuJ3vu34kXjEEA-1" target="qeD-OVsuJ3vu34kXjEEA-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-1" value="管理课程结束" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="360" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aVcCL-84Yknxmv-cQykV-1" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="qeD-OVsuJ3vu34kXjEEA-3" target="aVcCL-84Yknxmv-cQykV-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-3" value="记录更新课程信息" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="570" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="qeD-OVsuJ3vu34kXjEEA-5" target="qeD-OVsuJ3vu34kXjEEA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-5" value="提示是否确认删除" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="350" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-7" value="选择删除课程" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="320" y="215" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_H6jxRTStYEm8DvBGVmM-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="qeD-OVsuJ3vu34kXjEEA-11" target="qeD-OVsuJ3vu34kXjEEA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qeD-OVsuJ3vu34kXjEEA-11" value="删除课程更新信息&lt;br&gt;提示删除成功" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="350" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_H6jxRTStYEm8DvBGVmM-0" value="选择确认" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="350" y="310" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_H6jxRTStYEm8DvBGVmM-2" value="" style="html=1;verticalAlign=bottom;endArrow=open;strokeColor=#000000;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" target="yydpaexBZVuIiemLbXzi-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="435" y="250" as="sourcePoint" />
+            <mxPoint x="690" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_H6jxRTStYEm8DvBGVmM-3" value="选择取消" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="440" y="220" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_H6jxRTStYEm8DvBGVmM-5" value="修改信息&lt;br&gt;[正确修改]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="630" y="215" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aVcCL-84Yknxmv-cQykV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="aVcCL-84Yknxmv-cQykV-0" target="qeD-OVsuJ3vu34kXjEEA-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aVcCL-84Yknxmv-cQykV-0" value="提示修改成功" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="570" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aVcCL-84Yknxmv-cQykV-2" value="时钟到时" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="350" y="410" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aVcCL-84Yknxmv-cQykV-3" value="时钟到时" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="570" y="410" width="60" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
