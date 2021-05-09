@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T12:31:41.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="b4ODtP680BYv5F5gZ1uI" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-09T12:35:11.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="gojo8rGkQtXRf9mjdqGr" version="14.6.6" type="github" pages="3">
   <diagram id="R78xaqouT0fXK327TKrT" name="7.4.4 查看用户信息状态图">
     <mxGraphModel dx="1037" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -215,6 +215,9 @@
         <mxCell id="kMOTwyi9IoY8gT6K43Le-0" value="stm 管理课程状态图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=40;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
           <mxGeometry x="40" y="40" width="760" height="480" as="geometry" />
         </mxCell>
+        <mxCell id="aVcCL-84Yknxmv-cQykV-7" value="修改信息&lt;br&gt;[格式错误]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="660" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="kMOTwyi9IoY8gT6K43Le-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
           <mxGeometry x="90" y="170" width="30" height="30" as="geometry" />
         </mxCell>
@@ -244,6 +247,14 @@
         </mxCell>
         <mxCell id="qeD-OVsuJ3vu34kXjEEA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="Zap3hRZqwVx_drHE-D0I-0" target="qeD-OVsuJ3vu34kXjEEA-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVcCL-84Yknxmv-cQykV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="Zap3hRZqwVx_drHE-D0I-0" target="aVcCL-84Yknxmv-cQykV-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="130" />
+              <mxPoint x="610" y="130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Zap3hRZqwVx_drHE-D0I-0" value="显示课程信息表单" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
           <mxGeometry x="570" y="160" width="120" height="50" as="geometry" />
@@ -311,6 +322,28 @@
         </mxCell>
         <mxCell id="aVcCL-84Yknxmv-cQykV-3" value="时钟到时" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
           <mxGeometry x="570" y="410" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TTD4K-Y8N_VYsJGn43P1-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1" source="aVcCL-84Yknxmv-cQykV-5" target="yydpaexBZVuIiemLbXzi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVcCL-84Yknxmv-cQykV-5" value="错误提示" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="570" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QwTEMo8RsbRBo2f1euQt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659" y="160" as="sourcePoint" />
+            <mxPoint x="659" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="659" y="130" />
+              <mxPoint x="659" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QwTEMo8RsbRBo2f1euQt-4" value="修改信息&lt;br&gt;[信息不完整]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="535" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTD4K-Y8N_VYsJGn43P1-1" value="时钟到时" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="AyHcBvlUNfm0NTus6usM-1">
+          <mxGeometry x="350" y="110" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
