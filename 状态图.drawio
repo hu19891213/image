@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T11:51:01.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="USnL5SQL2TAmgUuEjICx" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-09T12:11:30.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="kr01J94G6frQoMPA9EYT" version="14.6.6" type="github" pages="3">
   <diagram id="R78xaqouT0fXK327TKrT" name="7.4.4 查看用户信息状态图">
     <mxGraphModel dx="1037" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
         <mxCell id="JF_MuRx8x4yZo3toYtdr-29" value="点击用户信息" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="245" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JF_MuRx8x4yZo3toYtdr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="JF_MuRx8x4yZo3toYtdr-31" target="JF_MuRx8x4yZo3toYtdr-57">
+        <mxCell id="JF_MuRx8x4yZo3toYtdr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="JF_MuRx8x4yZo3toYtdr-31" target="JF_MuRx8x4yZo3toYtdr-57">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="395" />
@@ -66,7 +66,7 @@
         <mxCell id="JF_MuRx8x4yZo3toYtdr-48" value="时钟到时" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="265" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JF_MuRx8x4yZo3toYtdr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JF_MuRx8x4yZo3toYtdr-49">
+        <mxCell id="JF_MuRx8x4yZo3toYtdr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JF_MuRx8x4yZo3toYtdr-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="388" y="240" as="targetPoint" />
             <Array as="points">
@@ -81,7 +81,7 @@
           <mxGeometry x="490" y="200" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JF_MuRx8x4yZo3toYtdr-55" value="时钟到时" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="140" width="60" height="20" as="geometry" />
+          <mxGeometry x="330" y="180" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JF_MuRx8x4yZo3toYtdr-56" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="170" y="380" width="30" height="30" as="geometry" />
@@ -100,6 +100,110 @@
       <root>
         <mxCell id="PjIbphXWAcYPcqoNooAm-0" />
         <mxCell id="PjIbphXWAcYPcqoNooAm-1" parent="PjIbphXWAcYPcqoNooAm-0" />
+        <mxCell id="hJUV-YuUBCaMWX-VFNm8-0" value="stm 创建课程状态图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=40;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="40" width="800" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hJUV-YuUBCaMWX-VFNm8-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="90" y="210" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJUV-YuUBCaMWX-VFNm8-6" value="" style="html=1;verticalAlign=bottom;endArrow=open;strokeColor=#FF0000;endFill=0;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="224.5" as="sourcePoint" />
+            <mxPoint x="160" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7s5-ibAPgLU1VQ5QXviD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="C2Oqjg-7ZbrXNfIuQUgc-0" target="7s5-ibAPgLU1VQ5QXviD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2Oqjg-7ZbrXNfIuQUgc-0" value="空闲" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="160" y="205" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5mkPvzpUxLGBkWLvA-5Q-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="7s5-ibAPgLU1VQ5QXviD-4" target="5mkPvzpUxLGBkWLvA-5Q-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7s5-ibAPgLU1VQ5QXviD-4" value="创建课程开始" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="350" y="202.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7s5-ibAPgLU1VQ5QXviD-6" value="选择创建课程" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="260" y="205" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.562;entryY=-0.042;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=open;endFill=0;entryPerimeter=0;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="5mkPvzpUxLGBkWLvA-5Q-0" target="5mkPvzpUxLGBkWLvA-5Q-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="280" />
+              <mxPoint x="307" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="5mkPvzpUxLGBkWLvA-5Q-0" target="QAiq84JVTtGRtAKOCqlP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="160" />
+              <mxPoint x="570" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-DFRb21i_mCwl9dnOfg-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="5mkPvzpUxLGBkWLvA-5Q-0" target="M-DFRb21i_mCwl9dnOfg-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5mkPvzpUxLGBkWLvA-5Q-0" value="显示空白课程信息表单" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="520" y="197.5" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="5mkPvzpUxLGBkWLvA-5Q-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="120" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5mkPvzpUxLGBkWLvA-5Q-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#FF0000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="5mkPvzpUxLGBkWLvA-5Q-4" target="5mkPvzpUxLGBkWLvA-5Q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5mkPvzpUxLGBkWLvA-5Q-4" value="创建课程结束" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="240" y="412.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-3" value="取消创建" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="430" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="QAiq84JVTtGRtAKOCqlP-4" target="7s5-ibAPgLU1VQ5QXviD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-4" value="错误提示" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="530" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-6" value="填写表单&lt;br&gt;[信息不完整]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="490" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="197.5" as="sourcePoint" />
+            <mxPoint x="610" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="160" />
+              <mxPoint x="610" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-9" value="填写表单&lt;br&gt;[格式错误]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="615" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QAiq84JVTtGRtAKOCqlP-11" value="时钟到时" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="350" y="130" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-DFRb21i_mCwl9dnOfg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="M-DFRb21i_mCwl9dnOfg-0" target="M-DFRb21i_mCwl9dnOfg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-DFRb21i_mCwl9dnOfg-0" value="课程创建并更新信息" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="530" y="307.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-DFRb21i_mCwl9dnOfg-2" value="填写表单&lt;br&gt;[正确填写]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="590" y="270" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-DFRb21i_mCwl9dnOfg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="PjIbphXWAcYPcqoNooAm-1" source="M-DFRb21i_mCwl9dnOfg-8" target="5mkPvzpUxLGBkWLvA-5Q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-DFRb21i_mCwl9dnOfg-8" value="创建成功提示" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;arcSize=10;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="530" y="406.25" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="M-DFRb21i_mCwl9dnOfg-11" value="时钟到时" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PjIbphXWAcYPcqoNooAm-1">
+          <mxGeometry x="415" y="412.5" width="60" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
