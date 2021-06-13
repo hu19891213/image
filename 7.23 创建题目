@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T09:48:41.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="bR5rmiBwU1-LdI8IpOOb" version="14.7.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-13T09:49:02.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="BPo5r2kQc2dRHp67Kt5p" version="14.7.0" type="github" pages="5">
   <diagram id="NUDsv8R9LEaEbQuK1w4z" name="7.23.1 创建题目系统顺序图">
     <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -322,7 +322,7 @@
         <mxCell id="_J0_Es-AItYf2DA4gcz5-0" />
         <mxCell id="_J0_Es-AItYf2DA4gcz5-1" parent="_J0_Es-AItYf2DA4gcz5-0" />
         <mxCell id="RRcY99_65yqpvMAPZmRV-0" value="stm 创建题目状态图" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=14;width=160;height=40;" vertex="1" parent="_J0_Es-AItYf2DA4gcz5-1">
-          <mxGeometry x="40" width="1000" height="480" as="geometry" />
+          <mxGeometry x="70" y="20" width="810" height="470" as="geometry" />
         </mxCell>
         <mxCell id="RRcY99_65yqpvMAPZmRV-1" value="" style="ellipse;fillColor=#000000;strokeColor=none;fontSize=14;" vertex="1" parent="_J0_Es-AItYf2DA4gcz5-1">
           <mxGeometry x="90" y="200" width="30" height="30" as="geometry" />
