@@ -1,1 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T08:35:06.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="UVV9ka9oThIzx9buLuDV" version="14.7.0" type="github" pages="4"><diagram id="NUDsv8R9LEaEbQuK1w4z" name="7.23.1 创建题目系统顺序图">7VrbkqM2EP0aPe4WAsTlEXxJqrJJbWWSSrJvGqOxyciWC8s79n591EJgQPiyM8brqsnLjLolBJw+HLVaRt5oufupoOvFryJjHLlOtkPeGLmu64S++geefenBuPLMizwzvoPjIf/GjNMx3m2esU1roBSCy3zdds7EasVmsuWjRSFe2sOeBG/fdU3nzHI8zCi3vX/lmVyU3og4B//PLJ8vqjtjx/QsaTXYODYLmomXhsubIG9UCCHL1nI3YhzQq3Apr5se6a0frGAreckFyb+/BNmfhO6nn5wvX8hv3/Cz/GBm+Ur51rzwJlM2mhAURShOoZGmKE3QJEaJi+IITULwJxNopB70QiNF8VSPwXowgb/RFBpqcDoxEMh9hatCYw3N7ZJPC7pUzfRlkUv2sKYz8L8oPinfQi65sjB0G/hx4EBHBboPlnkLVki2OwoPrkFXdGViyWSxV0PMBb4J075tvhyCHlaRXDQCHkTGSQ3R5vXMh1iohgnHd4TGi6zYcCHWV0DyCmhFbbRquwFX4PfA5TtDweV7FlyUy/tAC7ttuLwedpGgBy5vMLhcC61TUH3KnxjPV4CWemuZz/I11a+u+pKZFAV0sCJXz8ZUe8zN+M8H3zmYlYBLqi4paptzut7kj/px4CMv2GxbbPKv7He2KdcJ8EJgcqXXCc/nK+WTAibeqPvkq/kfYIy9QHnEVsITjep14kq64ZJ2bEM7tL264Q2mG3ZkbaW+MNY/JqRDhcoPz4aqXr5vE6vg/FfYwHMt8pXUj0BSRMadAIlCLsRcrChvhugi2I7z6DiWpAVlj/7jHiTJcPLfw/oAxSr9iHU2EkE+08VWYSLblC2Ah/RAULqVwjATuqkRmZmCTsPbVZ9lnmWc9cbqKed8JDho5Xgl9Pe1kYV4Zh1nIbarjGVXVKhOaoOxHay+tdodKlbkPlh/TtfbDMfkR1PctZN1jCZTlI5QnIC0Ry5KNdsjLfOX5PAncO9S+1FIKZaqg62yBHZW4ONi9gyuXS7/BsZ+jANj/qNNx8HGHu8Mo7WxbxiNwDUozzJrY9YJnXpwsS1m7DzTJC3m7JTWBSepoF8jsKJfaV7BOJVqDWs9Wl/0zQ0+A6GPr0pWzle+pbmqucHrTEQ6WWbN2GqiEoYTE1UDxdPThrXGaMLWyLyBw/a3jz82WRyhdIpi32wc40mDswTMKAWPgj6KQeCVmeiG2ndGwVvpLNZMdaUZ3Sy0AOOy21QloutyM7iQm6Sfm29kHSFXYt1Z+h5hncKc7hvDjMwffeB63ordUavcoRrljNelq70HdxtktYlokfVKAvu/Jr5SE8/R/Ers9Ds5VqcY12bnLQXXuyDZshVwo2CRlc/kpWrUNIeb60Vaj2jYbZm8hOWcPjKe0tnzXGe8valxVXLFXVW+Hx1upoPBnbHfDTqsJOEw2ty9T3ADbfZCW5svTSXqErYPY1TuAAqOUTKFLqXjqc6n1dYxHcM8akCiNT0aw5byfW4jPdwJck8RE/cVMQfbR/r2huiUtlVr6WlxwyfFLRhI3O5nfR9Az7rMuf9cM+7cB99Az3zXYrPXUDOiVajc1Qe6qmXpEuzzlWQFWs2U9Dla3xKU+O9VsryOZMU9ktVXnR9OsnrqlAomKFWOUNIbZgILVTQy5czUR+H4nYbTOkbrqTpHN43m+06ub7J4ENyuw3rqm3hlMnxmooGS4eo+wy4e9kmS31g86vUghMUAsls78f0eCSpnBk8MxWa1/EBXgFKn5/L3KVZuN4cIiSVWbt9p43BqZW+YTqlVjdadq1V19oAbhw3l4YMfVIcRlx8+qOgWe5juA1S4vMpjJgxx5TjMqK190xrwQKP6lcvZ7N4/cnw7hEK7bWH1nVcqdHd998PojQp9eTVNmYef4pXDD79o9Cb/AQ==</diagram><diagram id="0JUXSYB0mjeOjtRIiy0b" name="7.23.2 创建题目顺序图">ldFPD4IgFADwT8OxDWWmnc3+bXnItlo3ElI29DmiZX36dGDGutSJx4/He/xBJK7apaJNuQXGJfIxaxGZI9/3/DDshl4eRoLIQqEEs0kjZOLJLWKrN8H41UnUAFKLxsUc6prn2jGqFNzdtAtIt2tDC/4FWU7ltx4E06XRKMCjr7goyqGzh+1KRYdkC9eSMrh/EEkQiRWANlHVxlz2jze8S7D3zs92tktPR5yu02y6CQ8TU2zxz5b3FRSv9a+lu2A8WjdxPpgkLw==</diagram><diagram id="YTExXU8Fge4esDq9kGFG" name="7.23.3 创建题目概念类图">ldFPD4IgFADwT8OxDWVO72a1ykseOjYSUgp9DGlanz6dmLEudeLx4/EefxCJq26tqSpTYFwiH7MOkSXyfc8Pw34Y5DFKEFkotGA2aYZMPLlFbPUuGG+cRAMgjVAu5lDXPDeOUa2hddMuIN2uihb8C7Kcym89CmbKUaMAz77hoiinzh62KxWdki00JWXQfhBJEIk1gBmjqou5HB5vepfgoPDtlGYk2quzuO4aFW0XY7HVP1veV9C8Nr+W7oP5aP3E+WCSvAA=</diagram><diagram id="MdVZbIIOxTPOzyFsCByd" name="7.23.4 创建题目状态图">ldFPD4IgFADwT8OxDSFXV6f2b+vUoXVyDEjZ0OeQlvXp04EZ61InHj8e7/EH0bTut4a11RGE1Ihg0SOaIUIisloNwygPJ/HaQ2mU8EkznNRTesReb0rILki0ANqqNkQOTSO5DYwZA/cw7Qo67NqyUn7BiTP9rWclbOV0HePZd1KV1dQ5wn6lZlOyh65iAu4fRHNEUwNgXVT3qdTj403vUhxwkXeLZG8vV5Ily5I/44Urtvlny/sKRjb219JDMB9tmAQfTPMX</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-13T08:38:10.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="iUN1NkZ7-HPTk8r7Zx11" version="14.7.0" type="github" pages="4">
+  <diagram id="NUDsv8R9LEaEbQuK1w4z" name="7.23.1 创建题目系统顺序图">
+    <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-1" value="sd 创建题目系统顺序图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=40;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="720" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-38" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="640" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-43" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="340" width="560" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="70" width="20" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-3" value="系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="70" width="100" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="AjK6dU5ayFL0ZZ5Nz1kt-3" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="PiAllxhs0rsjVqcF2eZJ-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AjK6dU5ayFL0ZZ5Nz1kt-3">
+          <mxGeometry x="45" y="450" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PiAllxhs0rsjVqcF2eZJ-3" value="5：创建题目并更新信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;endSize=6;" edge="1" target="PiAllxhs0rsjVqcF2eZJ-2" parent="AjK6dU5ayFL0ZZ5Nz1kt-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-4" value="教师" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="110" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="255" y="150" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-21" value="1：点击创建题目" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.96;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="AjK6dU5ayFL0ZZ5Nz1kt-5" target="AjK6dU5ayFL0ZZ5Nz1kt-6" edge="1">
+          <mxGeometry x="0.0016" width="80" relative="1" as="geometry">
+            <mxPoint x="470" y="300" as="sourcePoint" />
+            <mxPoint x="520" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-25" value="1.1：返回题型选择框" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" source="AjK6dU5ayFL0ZZ5Nz1kt-6" target="AjK6dU5ayFL0ZZ5Nz1kt-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="300" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-28" value="2：选择题型" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="AjK6dU5ayFL0ZZ5Nz1kt-5" target="AjK6dU5ayFL0ZZ5Nz1kt-6" edge="1">
+          <mxGeometry x="0.0016" width="80" relative="1" as="geometry">
+            <mxPoint x="470" y="300" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="220" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-35" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;dashed=1;" parent="1" source="AjK6dU5ayFL0ZZ5Nz1kt-6" target="AjK6dU5ayFL0ZZ5Nz1kt-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="300" as="sourcePoint" />
+            <mxPoint x="260" y="257" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-37" value="2.1：返回题目信息空白表单" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="240" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-41" value="" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=6;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;" parent="1" source="AjK6dU5ayFL0ZZ5Nz1kt-5" target="AjK6dU5ayFL0ZZ5Nz1kt-6" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="300" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-42" value="3：填写表单并提交" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="290" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-44" value="[未填写完整}" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="380" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-45" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="515" y="399" as="sourcePoint" />
+            <mxPoint x="265" y="399" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-46" value="4：提示信息未填写完整，重新填写" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="375" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AjK6dU5ayFL0ZZ5Nz1kt-47" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;dashed=1;exitX=1.001;exitY=0.466;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.471;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AjK6dU5ayFL0ZZ5Nz1kt-43" target="AjK6dU5ayFL0ZZ5Nz1kt-43" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="525" y="409" as="sourcePoint" />
+            <mxPoint x="120" y="478" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PiAllxhs0rsjVqcF2eZJ-1" value="[创建成功]" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="500" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PiAllxhs0rsjVqcF2eZJ-4" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="515" y="560" as="sourcePoint" />
+            <mxPoint x="265" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PiAllxhs0rsjVqcF2eZJ-5" value="6：提示创建成功" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="540" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0JUXSYB0mjeOjtRIiy0b" name="7.23.2 创建题目顺序图">
+    <mxGraphModel dx="1277" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="5T1bzx9RNZX0NINS6J7W-0" />
+        <mxCell id="5T1bzx9RNZX0NINS6J7W-1" parent="5T1bzx9RNZX0NINS6J7W-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YTExXU8Fge4esDq9kGFG" name="7.23.3 创建题目概念类图">
+    <mxGraphModel dx="1277" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="5Rp0k_MS38LpbijKsp8J-0" />
+        <mxCell id="5Rp0k_MS38LpbijKsp8J-1" parent="5Rp0k_MS38LpbijKsp8J-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MdVZbIIOxTPOzyFsCByd" name="7.23.4 创建题目状态图">
+    <mxGraphModel dx="1277" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="_J0_Es-AItYf2DA4gcz5-0" />
+        <mxCell id="_J0_Es-AItYf2DA4gcz5-1" parent="_J0_Es-AItYf2DA4gcz5-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
