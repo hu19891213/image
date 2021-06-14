@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T09:49:02.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="BPo5r2kQc2dRHp67Kt5p" version="14.7.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-14T09:00:56.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="RBa_iOm_h9kolgQXsOS3" version="14.7.7" type="github" pages="5">
   <diagram id="NUDsv8R9LEaEbQuK1w4z" name="7.23.1 创建题目系统顺序图">
     <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -274,25 +274,25 @@
         <mxCell id="IGKxeMnBiQRIDVaXR3eQ-0" value="pkg创建题目概念类图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=150;height=40;" parent="5Rp0k_MS38LpbijKsp8J-1" vertex="1">
           <mxGeometry x="40" y="40" width="800" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-0" value="课程" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="5Rp0k_MS38LpbijKsp8J-1">
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-0" value="课程" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="5Rp0k_MS38LpbijKsp8J-1" vertex="1">
           <mxGeometry x="160" y="120" width="160" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-1" value="- id&#xa;&#xa;- 课程名称&#xa;&#xa;- 类型&#xa;&#xa;- 介绍&#xa;&#xa;- 封面&#xa;&#xa;- 所属学校&#xa;&#xa;- 价格&#xa;&#xa;- 授课教师&#xa;&#xa;- 课件&#xa;&#xa;- 点赞数&#xa;&#xa;- 题库&#xa;&#xa;- 测试&#xa;&#xa;- 讨论区" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MXE8A_3NUj-9Gc-JrELN-0">
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-1" value="- id&#xa;&#xa;- 课程名称&#xa;&#xa;- 类型&#xa;&#xa;- 介绍&#xa;&#xa;- 封面&#xa;&#xa;- 所属学校&#xa;&#xa;- 价格&#xa;&#xa;- 授课教师&#xa;&#xa;- 课件&#xa;&#xa;- 点赞数&#xa;&#xa;- 题库&#xa;&#xa;- 测试&#xa;&#xa;- 讨论区" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MXE8A_3NUj-9Gc-JrELN-0" vertex="1">
           <mxGeometry y="26" width="160" height="394" as="geometry" />
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-2" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;" edge="1" parent="MXE8A_3NUj-9Gc-JrELN-0">
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-2" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;" parent="MXE8A_3NUj-9Gc-JrELN-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint y="390" as="sourcePoint" />
             <mxPoint x="160" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-4" value="题目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="5Rp0k_MS38LpbijKsp8J-1">
-          <mxGeometry x="480" y="200" width="160" height="240" as="geometry" />
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-4" value="CourseExercise" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="5Rp0k_MS38LpbijKsp8J-1" vertex="1">
+          <mxGeometry x="480" y="200" width="160" height="236" as="geometry" />
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-5" value="- 题目id&#xa;&#xa;- 类型&#xa;&#xa;- 题干&#xa;&#xa;- 答案&#xa;&#xa;- 解析" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MXE8A_3NUj-9Gc-JrELN-4">
-          <mxGeometry y="26" width="160" height="214" as="geometry" />
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-5" value="- Integer : id&#xa;&#xa;- String : type&#xa;&#xa;- String : question&#xa;&#xa;- String : answerOptions&#xa;&#xa;- String : answer&#xa;&#xa;- String : analysis" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MXE8A_3NUj-9Gc-JrELN-4" vertex="1">
+          <mxGeometry y="26" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-6" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;" edge="1" parent="MXE8A_3NUj-9Gc-JrELN-4">
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-6" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;" parent="MXE8A_3NUj-9Gc-JrELN-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint y="210" as="sourcePoint" />
             <mxPoint x="160" y="210" as="targetPoint" />
@@ -301,16 +301,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-7" value="1" style="endArrow=none;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;endFill=0;" edge="1" parent="5Rp0k_MS38LpbijKsp8J-1">
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-7" value="1" style="endArrow=none;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;endFill=0;" parent="5Rp0k_MS38LpbijKsp8J-1" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="320" y="319.5" as="sourcePoint" />
             <mxPoint x="480" y="319.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-8" value="创建" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="5Rp0k_MS38LpbijKsp8J-1">
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-8" value="创建" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="5Rp0k_MS38LpbijKsp8J-1" vertex="1">
           <mxGeometry x="380" y="300" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MXE8A_3NUj-9Gc-JrELN-9" value="0..*" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" vertex="1" parent="5Rp0k_MS38LpbijKsp8J-1">
+        <mxCell id="MXE8A_3NUj-9Gc-JrELN-9" value="0..*" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" parent="5Rp0k_MS38LpbijKsp8J-1" vertex="1">
           <mxGeometry x="445" y="300" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
