@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-04T12:53:29.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="xp3F5p2Z2AYM4DGxpw9B" version="14.7.7" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-07-04T12:56:36.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ah1tQta18XWfBs-r0iH2" version="14.7.7" type="github" pages="19">
   <diagram id="NUDsv8R9LEaEbQuK1w4z" name="7.23.1 创建题目系统顺序图">
     <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1232,13 +1232,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gA3AIS703oB4ImUzG43w-12" value="0..*" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
-          <mxGeometry x="65" y="310" width="30" height="20" as="geometry" />
+          <mxGeometry x="270" y="330" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gA3AIS703oB4ImUzG43w-14" value="添加" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
-          <mxGeometry x="60" y="360" width="40" height="20" as="geometry" />
+        <mxCell id="gA3AIS703oB4ImUzG43w-14" value="查看" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="265" y="370" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gA3AIS703oB4ImUzG43w-15" value="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
-          <mxGeometry x="65" y="420" width="20" height="20" as="geometry" />
+          <mxGeometry x="275" y="407.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-16" value="0..*" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="120" y="240" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-17" value="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="230" y="240" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-18" value="发起、添加" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="150" y="200" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
