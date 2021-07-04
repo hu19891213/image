@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-04T13:01:34.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="1CoRHBOc0s_kgnH8pHOA" version="14.7.7" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-07-04T13:06:20.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Uh-DWECahIWH5GfpDL4i" version="14.7.7" type="github" pages="19">
   <diagram id="NUDsv8R9LEaEbQuK1w4z" name="7.23.1 创建题目系统顺序图">
     <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1174,6 +1174,9 @@
         <mxCell id="hTerJS-Il57H9QeffC4K-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="azH9yFCXjrKE7eZ8OarG-1" vertex="1">
           <mxGeometry x="-130" y="-80" width="1050" height="700" as="geometry" />
         </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="azH9yFCXjrKE7eZ8OarG-1" source="GbgJT5itxkasndO2nOIl-0" target="XKAOrXLwsWfix8kTmqxh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GbgJT5itxkasndO2nOIl-0" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; line-height: 120%&quot;&gt;&lt;b&gt;用户&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id&lt;br&gt;- 用户名&lt;br&gt;- 用户类型&lt;br&gt;- 电话号码&lt;br&gt;- 密码&lt;br&gt;- 头像&lt;br&gt;- 余额&lt;br&gt;- 充值账单&lt;br&gt;- 创建时间&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="azH9yFCXjrKE7eZ8OarG-1" vertex="1">
           <mxGeometry x="260" y="130" width="100" height="190" as="geometry" />
         </mxCell>
@@ -1189,11 +1192,14 @@
         <mxCell id="XKAOrXLwsWfix8kTmqxh-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;充值记录&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 充值用户&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 充值金额&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 充值时间&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 充值来源&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="azH9yFCXjrKE7eZ8OarG-1" vertex="1">
           <mxGeometry x="460" y="427.5" width="120" height="135" as="geometry" />
         </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="azH9yFCXjrKE7eZ8OarG-1" source="XKAOrXLwsWfix8kTmqxh-4" target="XKAOrXLwsWfix8kTmqxh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XKAOrXLwsWfix8kTmqxh-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;订单&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 价格&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 课程id&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 课程名&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 创建时间&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 状态信息&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="azH9yFCXjrKE7eZ8OarG-1" vertex="1">
           <mxGeometry x="230" y="-70" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="XKAOrXLwsWfix8kTmqxh-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;优惠券&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="azH9yFCXjrKE7eZ8OarG-1" vertex="1">
-          <mxGeometry x="470" y="-70" width="160" height="90" as="geometry" />
+          <mxGeometry x="510" y="-50" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XKAOrXLwsWfix8kTmqxh-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;已购买课程&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 购买时间&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 课程id&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 支付金额&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 课程名&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 课程介绍&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- 购买数量&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="azH9yFCXjrKE7eZ8OarG-1" vertex="1">
           <mxGeometry x="230" y="427.5" width="160" height="150" as="geometry" />
@@ -1275,6 +1281,24 @@
         </mxCell>
         <mxCell id="gA3AIS703oB4ImUzG43w-30" value="搜索、查看、购买" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
           <mxGeometry x="380" y="230" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-32" value="1..*" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="310" y="60" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-33" value="1..*" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="310" y="110" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-34" value="支付、查看、取消" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="310" y="90" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-36" value="1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="395" y="-30" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-37" value="0..1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="475" y="-30" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gA3AIS703oB4ImUzG43w-38" value="使用" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="azH9yFCXjrKE7eZ8OarG-1">
+          <mxGeometry x="429" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
