@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T14:22:10.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="UX_pL1Im_aDaHeR8TUT5" version="14.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-07T14:24:30.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="-fPAspeKcIqQ07eANdRG" version="14.8.4" type="github" pages="4">
   <diagram id="GZcpUVJJDwaQ0TvJFxmt" name="7.25.3获取测试列表概念类图">
     <mxGraphModel dx="864" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -147,8 +147,8 @@
       <root>
         <mxCell id="66NVCSivrzsWl7U_iytU-0" />
         <mxCell id="66NVCSivrzsWl7U_iytU-1" parent="66NVCSivrzsWl7U_iytU-0" />
-        <mxCell id="66NVCSivrzsWl7U_iytU-2" value="sd 获取测试信息系统顺序图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=40;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
-          <mxGeometry x="105" y="20" width="735" height="280" as="geometry" />
+        <mxCell id="66NVCSivrzsWl7U_iytU-2" value="sd 获取测试信息顺序图" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=40;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
+          <mxGeometry x="140" y="20" width="620" height="280" as="geometry" />
         </mxCell>
         <mxCell id="66NVCSivrzsWl7U_iytU-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
           <mxGeometry x="250" y="70" width="20" height="210" as="geometry" />
@@ -178,7 +178,7 @@
         <mxCell id="66NVCSivrzsWl7U_iytU-9" value="用户" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
           <mxGeometry x="240" y="120" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="66NVCSivrzsWl7U_iytU-10" value="" style="endArrow=none;startArrow=open;endFill=0;startFill=0;html=1;startSize=10;endSize=6;dashed=1;" edge="1" parent="66NVCSivrzsWl7U_iytU-1" source="66NVCSivrzsWl7U_iytU-6" target="66NVCSivrzsWl7U_iytU-5">
+        <mxCell id="66NVCSivrzsWl7U_iytU-10" value="" style="endArrow=none;startArrow=open;endFill=0;startFill=0;html=1;startSize=10;endSize=6;" edge="1" parent="66NVCSivrzsWl7U_iytU-1" source="66NVCSivrzsWl7U_iytU-6" target="66NVCSivrzsWl7U_iytU-5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="330" y="210" as="sourcePoint" />
             <mxPoint x="490" y="210" as="targetPoint" />
@@ -187,8 +187,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="66NVCSivrzsWl7U_iytU-11" value="1.1：返回该测试信息" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
-          <mxGeometry x="300" y="220" width="130" height="20" as="geometry" />
+        <mxCell id="66NVCSivrzsWl7U_iytU-11" value="4：返回并显示该测试信息" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
+          <mxGeometry x="290" y="220" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qutYEEy6QVXE7NqyVq-n-0" value="测试" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
           <mxGeometry x="590" y="70" width="100" height="210" as="geometry" />
@@ -201,13 +201,24 @@
             <mxPoint x="470" y="190" as="sourcePoint" />
             <mxPoint x="670" y="190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="565" y="190" />
-              <mxPoint x="605" y="190" />
+              <mxPoint x="590" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qutYEEy6QVXE7NqyVq-n-4" value="1：点击查看某个测试信息" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
-          <mxGeometry x="480" y="170" width="150" height="20" as="geometry" />
+        <mxCell id="qutYEEy6QVXE7NqyVq-n-4" value="2：查询该测试信息" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
+          <mxGeometry x="495" y="165" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9-rPvRMYAT20VuNzQmfd-0" value="" style="endArrow=none;startArrow=open;endFill=0;startFill=0;html=1;startSize=10;endSize=6;" edge="1" parent="66NVCSivrzsWl7U_iytU-1" source="66NVCSivrzsWl7U_iytU-5" target="qutYEEy6QVXE7NqyVq-n-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="455" y="239" as="sourcePoint" />
+            <mxPoint x="655" y="239" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-rPvRMYAT20VuNzQmfd-1" value="3：返回该测试信息" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="66NVCSivrzsWl7U_iytU-1">
+          <mxGeometry x="495" y="210" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
