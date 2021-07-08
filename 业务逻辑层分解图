@@ -1,17 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:13:38.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="xe62kyp6LVLgXfJe1BUg" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T12:19:07.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="DWh8M8ByTsOGepF3DgkK" version="14.8.4" type="github">
   <diagram id="C_lBRK4su3st610aXAgF" name="第 1 页">
     <mxGraphModel dx="1037" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="i8-zIwp6xEeMlvVibdDL-1" value="pkg" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-50" width="760" height="630" as="geometry" />
+          <mxGeometry x="50" y="-50" width="720" height="580" as="geometry" />
         </mxCell>
         <mxCell id="i8-zIwp6xEeMlvVibdDL-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CourseExerciseServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- courseExerciseMapper : CourseExerciseMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createCourseExercise(courseExerciseDTO:CourserExerciseDTO): ResultVO&amp;lt;Integer&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ deleteCourseExercise(courseExercsieId:Integer): ResultVO&amp;lt;Integer&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getCourseExercise(courseExerciseId:Integer): CourseExerciseVO&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAllCourseExercise(courseId:Integer): List&amp;lt;CourseExerciseVO&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" width="520" height="120" as="geometry" />
+          <mxGeometry x="150" y="370" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i8-zIwp6xEeMlvVibdDL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;endSize=12;" edge="1" parent="1" source="i8-zIwp6xEeMlvVibdDL-3" target="i8-zIwp6xEeMlvVibdDL-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i8-zIwp6xEeMlvVibdDL-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CourseTestServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- courseExerciseMapper : CourseExerciseMapper&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- courseTestMapper : CourseTestMapper&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- makeUpTestMapper : MakeUpTestMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createCourseTest(courseTestDTO:CourserTestDTO): ResultVO&amp;lt;Integer&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getCourseTest(courseTestId:Integer): CourseTestVO&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAllCourseTest(courseId:Integer): List&amp;lt;CourseTestVO&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAllCourseExerciseAnswer(courseTestId:Integer): List&amp;lt;String&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="180" width="520" height="150" as="geometry" />
+          <mxGeometry x="150" y="170" width="520" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="i8-zIwp6xEeMlvVibdDL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;endSize=12;" edge="1" parent="1" source="i8-zIwp6xEeMlvVibdDL-4" target="i8-zIwp6xEeMlvVibdDL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i8-zIwp6xEeMlvVibdDL-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CourseTestCommitRecordServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- attendTestMapper : AttendTestMapper&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- makeUpTestTestMapper : MakeUpTestTestMapper&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- writeExerciseMapper : WriteExerciseMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ commitAnswer(commitAnswerDTO:CommitAnswerDTO): ResultVO&amp;lt;Integer&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getLastAnswer(uid:Integer, courserTestId:Integer): CourseTestCommitRecordVO&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-20" width="520" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
