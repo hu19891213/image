@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:37:09.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="u1Wb9xkowq0IQd_WJEZ7" version="14.8.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-08T12:46:24.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="LCiDXPHmNIvjQsC1jvXa" version="14.8.4" type="github" pages="4">
   <diagram id="C_lBRK4su3st610aXAgF" name="第 1 页">
     <mxGraphModel dx="1037" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DiX8QrZZVx3bdQeGBwBn" name="逻辑视图">
-    <mxGraphModel dx="2074" dy="2162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="593" dy="1403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-0" />
         <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-1" parent="IgtBpR5N6LZ5Gpsj5d3I-0" />
@@ -227,6 +227,43 @@
             <mxPoint x="940" y="94" as="sourcePoint" />
             <mxPoint x="970" y="81.57142857142867" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EU69E4SxzCm7wC3OGcJj" name="第 3 页">
+    <mxGraphModel dx="1037" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="jMkOVfQTijK3PQeC1ARL-0" />
+        <mxCell id="jMkOVfQTijK3PQeC1ARL-1" parent="jMkOVfQTijK3PQeC1ARL-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C2n1z25vH1ybGEEET7ux" name="服务端开发包图">
+    <mxGraphModel dx="1037" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="JHaYp3liVy06J_x0NR_--0" />
+        <mxCell id="JHaYp3liVy06J_x0NR_--1" parent="JHaYp3liVy06J_x0NR_--0" />
+        <mxCell id="JHaYp3liVy06J_x0NR_--2" value="pkg 服务端开发包图(第三阶段）" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=none;width=120;height=40;" vertex="1" parent="JHaYp3liVy06J_x0NR_--1">
+          <mxGeometry x="55" y="-320" width="760" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="JHaYp3liVy06J_x0NR_--3" value="HTTP" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="JHaYp3liVy06J_x0NR_--1">
+          <mxGeometry x="385" y="-300" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JHaYp3liVy06J_x0NR_--4" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="JHaYp3liVy06J_x0NR_--1">
+          <mxGeometry x="80" y="-240" width="710" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="JHaYp3liVy06J_x0NR_--5" value="courseController" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="JHaYp3liVy06J_x0NR_--1">
+          <mxGeometry x="100" y="-170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JHaYp3liVy06J_x0NR_--6" value="courseExerciseController" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="JHaYp3liVy06J_x0NR_--1">
+          <mxGeometry x="230" y="-170" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JHaYp3liVy06J_x0NR_--8" value="courseTestController" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="JHaYp3liVy06J_x0NR_--1">
+          <mxGeometry x="410" y="-170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JHaYp3liVy06J_x0NR_--9" value="courseTestCommitRecordController" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="JHaYp3liVy06J_x0NR_--1">
+          <mxGeometry x="560" y="-170" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
