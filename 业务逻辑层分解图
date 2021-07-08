@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:19:07.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="DWh8M8ByTsOGepF3DgkK" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T12:26:21.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="x9r62HcbXKmcPrAJ4NwF" version="14.8.4" type="github" pages="2">
   <diagram id="C_lBRK4su3st610aXAgF" name="第 1 页">
-    <mxGraphModel dx="1037" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,44 @@
         </mxCell>
         <mxCell id="i8-zIwp6xEeMlvVibdDL-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CourseTestCommitRecordServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- attendTestMapper : AttendTestMapper&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- makeUpTestTestMapper : MakeUpTestTestMapper&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- writeExerciseMapper : WriteExerciseMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ commitAnswer(commitAnswerDTO:CommitAnswerDTO): ResultVO&amp;lt;Integer&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getLastAnswer(uid:Integer, courserTestId:Integer): CourseTestCommitRecordVO&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="-20" width="520" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DiX8QrZZVx3bdQeGBwBn" name="逻辑视图">
+    <mxGraphModel dx="1037" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-0" />
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-1" parent="IgtBpR5N6LZ5Gpsj5d3I-0" />
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-2" value="pkg" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry y="-200" width="1040" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="20" y="-160" width="1000" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-5" value="CourseUI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="40" y="-110" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-6" value="CourseExercsieUI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="130" y="-110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-7" value="CourseTestUI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="260" y="-110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-8" value="CourseWareUI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="390" y="-110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-9" value="UserUI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="520" y="-110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-10" value="UserUI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="650" y="-110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-11" value="OrderUI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="780" y="-110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IgtBpR5N6LZ5Gpsj5d3I-14" value="FileUI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=none;" vertex="1" parent="IgtBpR5N6LZ5Gpsj5d3I-1">
+          <mxGeometry x="900" y="-110" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
