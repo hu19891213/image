@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T07:24:48.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.5" etag="H-q5_mNddsE7tedEjz-x" type="github"><diagram id="BW6xRl0wHcEcQr2X2kis">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-09T07:49:45.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="-9mMfvAAFTasQi_h3HgC" version="14.8.5" type="github">
+  <diagram id="BW6xRl0wHcEcQr2X2kis" name="具体设计">
+    <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11xjb5EzQ7klF4laPUOa-8" value="pkg&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Bdashed%3D1%3Bdirection%3Dsouth%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%2280%22%20width%3D%22290%22%20height%3D%22350%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="50" width="695" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-2" value="" style="whiteSpace=wrap;html=1;dashed=1;direction=south;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="290" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-3" value="&lt;b&gt;businesslogic.CourseTestCommitRecordbl包&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="100" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=10;dashed=1;" edge="1" parent="1" source="11xjb5EzQ7klF4laPUOa-5" target="11xjb5EzQ7klF4laPUOa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=10;" edge="1" parent="1" source="11xjb5EzQ7klF4laPUOa-5" target="11xjb5EzQ7klF4laPUOa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CourseTestCommitRecordController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="406.25" y="140" width="217.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;CourseTestCommitRecordService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="406.25" y="230" width="217.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=10;dashed=1;" edge="1" parent="1" source="11xjb5EzQ7klF4laPUOa-7" target="11xjb5EzQ7klF4laPUOa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=10;dashed=1;" edge="1" parent="1" source="11xjb5EzQ7klF4laPUOa-7" target="11xjb5EzQ7klF4laPUOa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-7" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;CourseTestCommitRecordServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="403.13" y="340" width="223.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CourseTestCommitRecord&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CommitInfo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;AttendTestMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="500" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MakeUpTestMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430.01" y="500" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;WriteExerciseMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;dashed=1;" edge="1" parent="1" source="11xjb5EzQ7klF4laPUOa-7" target="11xjb5EzQ7klF4laPUOa-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="510" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;dashed=1;" edge="1" parent="1" source="11xjb5EzQ7klF4laPUOa-7" target="11xjb5EzQ7klF4laPUOa-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="510" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11xjb5EzQ7klF4laPUOa-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;dashed=1;" edge="1" parent="1" source="11xjb5EzQ7klF4laPUOa-7" target="11xjb5EzQ7klF4laPUOa-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="510" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
