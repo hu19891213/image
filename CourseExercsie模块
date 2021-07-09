@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T03:12:15.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="8yihZx84P9nmsGgp6vWE" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-09T05:22:13.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Mnx5OHDmHHMYrSW3pf1W" version="14.8.5" type="github" pages="2">
   <diagram id="HYxvyIk6DEruLWY_aizE" name="具体设计图">
-    <mxGraphModel dx="1037" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="PV7yUhEZnET0gUfYUhe_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=10;dashed=1;" edge="1" parent="1" source="PV7yUhEZnET0gUfYUhe_-7" target="PV7yUhEZnET0gUfYUhe_-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV7yUhEZnET0gUfYUhe_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;endSize=10;" edge="1" parent="1" source="PV7yUhEZnET0gUfYUhe_-7" target="PV7yUhEZnET0gUfYUhe_-13">
+        <mxCell id="PV7yUhEZnET0gUfYUhe_-14" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;endSize=10;" edge="1" parent="1" source="PV7yUhEZnET0gUfYUhe_-7" target="PV7yUhEZnET0gUfYUhe_-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PV7yUhEZnET0gUfYUhe_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=10;" edge="1" parent="1" source="PV7yUhEZnET0gUfYUhe_-7" target="PV7yUhEZnET0gUfYUhe_-17">
@@ -32,7 +32,7 @@
           <mxGeometry x="431.25" y="340" width="167.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PV7yUhEZnET0gUfYUhe_-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CourseExercise&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="170" y="340" width="150" height="60" as="geometry" />
+          <mxGeometry x="170" y="410" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PV7yUhEZnET0gUfYUhe_-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CourseExerciseMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="460" width="170" height="80" as="geometry" />
@@ -40,6 +40,23 @@
         <mxCell id="PV7yUhEZnET0gUfYUhe_-20" value="&lt;b&gt;businesslogic.CourseExercisebl包&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="100" width="210" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="9bRKqQV4zl3RFrYRs0dJ-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CourseExerciseDTO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bRKqQV4zl3RFrYRs0dJ-2" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1" source="PV7yUhEZnET0gUfYUhe_-7" target="9bRKqQV4zl3RFrYRs0dJ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rKZa7Qa5PLSBBrUV4niZ" name="第 2 页">
+    <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="vrowqPlIxBGeP1ZGJh6r-0" />
+        <mxCell id="vrowqPlIxBGeP1ZGJh6r-1" parent="vrowqPlIxBGeP1ZGJh6r-0" />
       </root>
     </mxGraphModel>
   </diagram>
