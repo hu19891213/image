@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T08:47:52.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="24jyn0vd6BVsZET8rrpx" version="14.8.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-07-09T08:52:06.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Gj0_aJCIcjxod5YMQQlO" version="14.8.5" type="github" pages="8">
   <diagram id="HYxvyIk6DEruLWY_aizE" name="具体设计图">
     <mxGraphModel dx="1037" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -200,11 +200,8 @@
         <mxCell id="ohdH38S34Jcz-z__ljtN-5" value="sd createTest" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=none;width=150;height=30;" vertex="1" parent="ohdH38S34Jcz-z__ljtN-1">
           <mxGeometry x="40" width="810" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="ohdH38S34Jcz-z__ljtN-2" value="1.1.1.1.1:insert&lt;br&gt;(CourseExercise record)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="ohdH38S34Jcz-z__ljtN-1">
-          <mxGeometry x="650" y="150" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ohdH38S34Jcz-z__ljtN-3" value="1.1.1.1:createCourseExercise&lt;br&gt;(CourseExerciseDTO &lt;br&gt;courseExerciseDTO)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="ohdH38S34Jcz-z__ljtN-1">
-          <mxGeometry x="510" y="140" width="170" height="50" as="geometry" />
+        <mxCell id="ohdH38S34Jcz-z__ljtN-3" value="2:insert&lt;br&gt;(Integer courseTestId)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="ohdH38S34Jcz-z__ljtN-1">
+          <mxGeometry x="535" y="110" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ohdH38S34Jcz-z__ljtN-4" value="1.1:createTest&lt;br&gt;(CourseTestDTO &lt;br&gt;courseTestDTO)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="ohdH38S34Jcz-z__ljtN-1">
           <mxGeometry x="260" y="100" width="110" height="50" as="geometry" />
@@ -273,10 +270,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ohdH38S34Jcz-z__ljtN-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ohdH38S34Jcz-z__ljtN-1">
-          <mxGeometry x="650" y="140" width="10" height="180" as="geometry" />
+          <mxGeometry x="650" y="140" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ohdH38S34Jcz-z__ljtN-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ohdH38S34Jcz-z__ljtN-1">
-          <mxGeometry x="775" y="150" width="10" height="150" as="geometry" />
+          <mxGeometry x="775" y="220" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ohdH38S34Jcz-z__ljtN-23" value="" style="endArrow=block;endFill=1;endSize=12;html=1;" edge="1" parent="ohdH38S34Jcz-z__ljtN-1" target="ohdH38S34Jcz-z__ljtN-11">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -287,16 +284,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohdH38S34Jcz-z__ljtN-24" value="" style="endArrow=block;endFill=1;endSize=12;html=1;" edge="1" parent="ohdH38S34Jcz-z__ljtN-1" target="ohdH38S34Jcz-z__ljtN-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="660" y="150" as="sourcePoint" />
-            <mxPoint x="790" y="150" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="765" y="150" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohdH38S34Jcz-z__ljtN-25" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="ohdH38S34Jcz-z__ljtN-1" source="ohdH38S34Jcz-z__ljtN-22" target="ohdH38S34Jcz-z__ljtN-21">
+        <mxCell id="ohdH38S34Jcz-z__ljtN-25" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="ohdH38S34Jcz-z__ljtN-1" source="ohdH38S34Jcz-z__ljtN-22" target="ohdH38S34Jcz-z__ljtN-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="765" y="300" as="sourcePoint" />
             <mxPoint x="685" y="300" as="targetPoint" />
@@ -328,6 +316,18 @@
             <mxPoint x="235" y="369" as="sourcePoint" />
             <mxPoint x="105" y="369" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="E6O0HDdwCd-1t3ARe66K-4" value="" style="endArrow=block;endFill=1;endSize=12;html=1;" edge="1" parent="ohdH38S34Jcz-z__ljtN-1" source="ohdH38S34Jcz-z__ljtN-19" target="ohdH38S34Jcz-z__ljtN-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="210" as="sourcePoint" />
+            <mxPoint x="500" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E6O0HDdwCd-1t3ARe66K-5" value="3:insert(Integer courseTestId,&lt;br&gt;Integer courseExerciseId)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="ohdH38S34Jcz-z__ljtN-1">
+          <mxGeometry x="570" y="220" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
